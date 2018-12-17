@@ -1,0 +1,37 @@
+{
+  "name": "timer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://sruthi515.github.io/react_task_manager",
+  "dependencies": {
+    "history": "^4.7.2",
+    "moment": "^2.23.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-moment": "^0.8.4",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-web-notification": "^0.4.0",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

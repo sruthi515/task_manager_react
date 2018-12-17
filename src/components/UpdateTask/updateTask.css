@@ -1,0 +1,42 @@
+ button {
+    width: 260px;
+    height: 40px;
+    background-color: #ccffe6;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+ button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    background-color: #f2f2f2;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+input:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.30), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.task_container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 355px;
+    text-align: center;
+    border: 2px solid #399;
+    margin-left: 400px;
+    margin-top: 150px;
+    position: fixed;
+    border-radius: 4px;
+    background-color: #ffffe6;
+}
